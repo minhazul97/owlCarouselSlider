@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="product">
+        <div class="container">
+            <div class="owl-carousel owl-theme kuddus">
+                <div class="item item">
+                    <div class="product__slider-item">
+                        <div class="product__slider-image-wrap">
+                            <img class="product__slider-image" src="images/i1.png" alt="">
+                        </div>
+                        <div class="product__slider-text-wrap">
+                            <span>Package A</span>
+                            <h2>Start from $9.90/mo.</h2>
+                            <p>Curabitur elit. In ultricies iaculis lectus. Phasellus vitae justo. Sed faucibus, diam sit amet, volutpat quam congue sodales nibh vel dui ut aliquet mi mauris, interdum at, posuere cubilia Curae, Duis ornare varius, nisl risus.</p>
+                            <div>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item">
+                    <div class="product__slider-item">
+                        <div class="product__slider-image-wrap">
+                            <img class="product__slider-image" src="images/i2.png" alt="">
+                        </div>
+                        <div class="product__slider-text-wrap">
+                            <span>Package B</span>
+                            <h2>Start from $9.90</h2>
+                            <p>Curabitur elit. In ultricies iaculis lectus. Phasellus vitae justo. Sed faucibus, diam sit amet, volutpat quam congue sodales nibh vel dui ut aliquet mi mauris, interdum </p>
+                            <div>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item">
+                    <div class="product__slider-item">
+                        <div class="product__slider-image-wrap">
+                            <img class="product__slider-image" src="images/i1.png" alt="">
+                        </div>
+                        <div class="product__slider-text-wrap">
+                            <span>Package C</span>
+                            <h2>Start from $9</h2>
+                            <p>Curabitur elit. In ultricies iaculis lectus. Phasellus vitae justo. Sed faucibus, diam sit amet, volutpat quam congue sodales nibh vel</p>
+                            <div>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item">
+                    <div class="product__slider-item">
+                        <div class="product__slider-image-wrap">
+                            <img class="product__slider-image" src="images/i2.png" alt="">
+                        </div>
+                        <div class="product__slider-text-wrap">
+                            <span>Package D</span>
+                            <h2>Start from 0</h2>
+                            <p>Curabitur elit. In ultricies iaculis lectus. Phasellus vitae justo. Sed faucibus, diam sit amet, volutpat quam congue sodales nibh vel  mi mauris, interdum </p>
+                            <div>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            items: 1,
+            nav:true,
+            dots: true,
+            // responsive:{
+            //     0:{
+            //         items:1
+            //     },
+            //     600:{
+            //         items:3
+            //     },
+            //     1000:{
+            //         items:5
+            //     }
+            // }
+        })
+    </script>
+
+</body>
+</html>
